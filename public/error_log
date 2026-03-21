@@ -1,0 +1,240 @@
+[21-Mar-2026 12:27:09 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/public/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/public/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/public/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/public/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/public/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/public/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/public/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/public/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/public/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 12:45:41 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 12:45:43 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 12:46:11 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 12:47:20 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 12:49:50 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 12:51:29 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/public/index.php on line 14
+[21-Mar-2026 12:51:29 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/public/index.php on line 14
+[21-Mar-2026 12:51:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/nanokome/kanji.nanokome.work/public/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/nanokome/kanji.nanokome.work/public/public/index.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/public/public/index.php on line 14
+[21-Mar-2026 13:16:17 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 13:25:03 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 13:25:07 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 13:34:32 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 14:18:38 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 14:18:46 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 14:18:49 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 14:19:55 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 14:19:56 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 14:22:33 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 14:23:55 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:387) in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home/nanokome/...', 322)
+#2 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(221): Symfony\Component\HttpFoundation\Response->send()
+#5 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(198): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home/nanokome/kanji.nanokome.work/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(258): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/vendor/symfony/http-foundation/Response.php on line 322
+[21-Mar-2026 14:40:21 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:40:21 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:40:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/nanokome/kanji.nanokome.work/public/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:45:11 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:45:11 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:45:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/nanokome/kanji.nanokome.work/public/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:46:49 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:46:49 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:46:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/nanokome/kanji.nanokome.work/public/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:50:43 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:50:43 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:50:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/nanokome/kanji.nanokome.work/public/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:50:54 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:50:54 UTC] PHP Warning:  require(/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
+[21-Mar-2026 14:50:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/nanokome/kanji.nanokome.work/public/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home/nanokome/kanji.nanokome.work/public/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/nanokome/kanji.nanokome.work/public/index.php on line 15
