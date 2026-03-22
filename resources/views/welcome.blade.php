@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <center><h1>漢字投票のサイトへようこそ！</h1></center>
 </body>
 </html>
