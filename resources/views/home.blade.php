@@ -5,9 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
     <title>Welcome</title>
 </head>
 <body>
-    <center><h1>漢字投票のサイトへようこそ！</h1></center>
+<x-layout header="Policy">
+    <div class="border-b-red-700">
+        <h1>メイン部分</h1>
+    </div>
+</x-layout>
+
 </body>
 </html>
